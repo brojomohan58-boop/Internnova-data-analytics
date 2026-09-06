@@ -40,7 +40,7 @@ The repository will be updated progressively as I complete additional internship
 | Week 2 | NumPy & Pandas for Data Analytics | ✅ Completed |
 | Week 3 | SQL & Excel for Data Analytics | ✅ Completed |
 | Week 4 | Statistics, Data Visualization & Exploratory Data Analysis | ✅ Completed |
-| Week 5 | Upcoming | ⏳ Upcoming |
+| Week 5 | Power BI & Business Intelligence | ✅ Completed |
 | Week 6 | Upcoming | ⏳ Upcoming |
 ---
 
@@ -402,12 +402,80 @@ week4_statistics_data_visualization&eda/
     └── Statistics_Data_Visualization&Exploratory_Data_Analysis_Report.pdf
 ```
 
-### Learning Outcome
+# 📊 Week 5 — Power BI & Business Intelligence
 
-Through Week 3, I gained practical experience in combining **SQL-based data querying** with **Excel-based data analysis**.
+### Goal
 
-This task strengthened my ability to work with structured datasets, retrieve relevant information, perform analytical calculations, and communicate results in a structured report.
+The objective of Week 5 was to develop practical skills in **Power BI and Business Intelligence** by transforming structured sales data into interactive and meaningful business visualizations.
 
+The assignment focused on importing datasets, analyzing sales data, creating visualizations, and developing a Power BI dashboard to communicate business insights effectively.
+
+### Dataset
+
+The Week 5 assignment uses two datasets:
+
+- `products.csv` — product-related information
+- `sales_fact.csv` — sales transaction data
+
+These datasets were used to build the Power BI analysis and dashboard.
+
+### Power BI Analysis
+
+The assignment involved using **Microsoft Power BI** to analyze sales and product data and present the results through business-oriented visualizations.
+
+### Key Areas Covered
+
+- Importing data into Power BI
+- Working with structured datasets
+- Data preparation
+- Data analysis
+- Creating charts and visualizations
+- Building business-focused dashboards
+- Presenting sales performance
+- Visual storytelling
+- Extracting business insights from data
+
+### Dashboard Visualizations
+
+The Power BI dashboard includes multiple visualizations, including:
+
+- Bar Chart
+- Line Chart
+- Donut Chart
+- Matrix
+- Interactive Dashboard
+
+These visualizations help analyze sales performance and present important business information in an easy-to-understand format.
+
+### Dashboard
+
+The main Power BI dashboard was developed using:
+
+```text
+InterNova_Sales_Dashboard.pbix
+```
+### Week 4 Files
+
+```text
+week5_power_bi&business_intelligence/
+│
+├── 01_dataset/
+│   ├── products.csv
+│   └── sales_fact.csv
+│
+├── 02_power_bi/
+│   └── InterNova_Sales_Dashboard.pbix
+│
+├── 03_dashboard/
+│   ├── 01_bar_chart.png
+│   ├── 02_line_chart.png
+│   ├── 03_donut_chart.png
+│   ├── 04_matrix.png
+│   └── 05_dashboard.png
+│
+└── 04_report/
+    └── Power BI & Business Intelligence_Report.pdf
+```
 ---
 
 # 🛠️ Technologies Used
