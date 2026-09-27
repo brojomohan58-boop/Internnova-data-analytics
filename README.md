@@ -3,12 +3,18 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![NumPy](https://img.shields.io/badge/NumPy-Data%20Analysis-013243?logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-orange?logo=mysql)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-Data%20Analysis-217346?logo=microsoftexcel)
+![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?logo=powerbi)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)
 
-This repository contains my work completed during my **Data Analytics Internship at InternNova**.
+This repository contains my complete work completed during my **Data Analytics Internship at InternNova**.
 
-It documents my practical learning and hands-on implementation of Python programming and data analysis concepts through weekly assignments, datasets, Jupyter Notebooks, Python scripts, processed outputs, and reports.
+The internship provided practical experience across Python programming, NumPy, Pandas, SQL, Excel, Statistics, Data Visualization, Exploratory Data Analysis, Power BI, Business Intelligence, Git, GitHub, and an end-to-end Final Data Analytics Project.
+
+The repository is organized week-by-week and contains datasets, source files, notebooks, SQL queries, Excel work, Power BI dashboards, visualizations, reports, and final project documentation.
 
 ---
 
@@ -19,16 +25,33 @@ It documents my practical learning and hands-on implementation of Python program
 🎓 B.Sc. Honours in Mathematics  
 📊 Aspiring Data Analyst
 
-**Skills & Tools:**  
-Python • NumPy • Pandas • SQL • Excel • Power BI • Tableau
+**Skills & Tools:**
+
+Python • NumPy • Pandas • SQL • Excel • Power BI • Tableau • Statistics • Data Visualization • Exploratory Data Analysis • Git • GitHub
 
 ---
 
 # 📚 Internship Overview
 
-The internship is structured around practical assignments designed to strengthen my understanding of data analytics and develop hands-on experience with Python-based data analysis workflows.
+The InternNova Data Analytics Internship consisted of six practical assignments designed to progressively develop technical and analytical skills.
 
-The repository will be updated progressively as I complete additional internship assignments.
+The internship progression covered:
+
+```text
+Python Fundamentals
+        ↓
+NumPy & Pandas
+        ↓
+SQL & Excel
+        ↓
+Statistics, Visualization & EDA
+        ↓
+Power BI & Business Intelligence
+        ↓
+Git, GitHub & Final Data Analytics Project
+```
+
+Each week focused on applying concepts through practical tasks, datasets, analysis, visualizations, reports, and projects.
 
 ---
 
@@ -41,37 +64,53 @@ The repository will be updated progressively as I complete additional internship
 | Week 3 | SQL & Excel for Data Analytics | ✅ Completed |
 | Week 4 | Statistics, Data Visualization & Exploratory Data Analysis | ✅ Completed |
 | Week 5 | Power BI & Business Intelligence | ✅ Completed |
-| Week 6 | Upcoming | ⏳ Upcoming |
+| Week 6 | Git, GitHub & Final Data Analytics Project | ✅ Completed |
+
+**Internship Status: ✅ Successfully Completed**
+
 ---
 
 # 🐍 Week 1 — Python Fundamentals for Data Analytics
 
-### Goal
+## 🎯 Objective
 
 The objective of Week 1 was to build a strong foundation in **Python programming for Data Analytics**.
 
-The assignment focused on understanding Python fundamentals and applying them through practical coding exercises.
+The assignment covered Python basics, variables and data types, operators, conditional statements, loops, functions, strings, collections, file handling, and a mini Python project.
 
-### Key Areas Covered
+## 📌 Key Areas Covered
 
-- Python basics and input/output
+- Python basics
+- Input and output
 - Variables and data types
 - Operators
 - Conditional statements
-- Loops
+- `if`, `elif`, and `else`
+- `for` and `while` loops
 - User-defined functions
-- Strings and collections
-- Lists, tuples, dictionaries, and sets
+- Strings
+- Lists
+- Tuples
+- Dictionaries
+- Sets
 - Basic file handling
 - Python programming practice
 
-### Mini Project
+## 🧩 Mini Project
+
+### Student Record Management System
 
 As part of the Week 1 assignment, I developed a **Student Record Management System** using Python.
 
-The project demonstrates basic record-management functionality such as adding, displaying, searching, and deleting student records.
+The project demonstrates:
 
-### Week 1 Files
+- Adding student details
+- Displaying student records
+- Searching for a student by name
+- Deleting student records
+- Using lists or dictionaries for data storage
+
+## 📁 Week 1 Files
 
 ```text
 week1-python-fundamentals/
@@ -88,33 +127,56 @@ week1-python-fundamentals/
 
 # 📊 Week 2 — NumPy & Pandas for Data Analytics
 
-### Goal
+## 🎯 Objective
 
-The objective of Week 2 was to develop practical skills in **NumPy and Pandas**, with a focus on working with structured datasets and performing common data-analysis operations.
+The objective of Week 2 was to develop practical skills in **NumPy and Pandas**, which are essential Python libraries for Data Analytics.
 
-The assignment progressed from basic array operations to a complete mini data-analysis project.
+The assignment covered array operations, statistical calculations, DataFrame manipulation, data inspection, cleaning, filtering, sorting, merging, GroupBy, Pivot Tables, exporting data, and a mini data-analysis project.
 
-### Key Areas Covered
+## 📌 Key Areas Covered
+
+### NumPy
 
 - NumPy arrays
-- Array indexing and slicing
-- Array reshaping
-- Mathematical and statistical operations
-- Pandas Series and DataFrames
-- Reading and inspecting CSV datasets
-- Data selection, filtering, and sorting
+- One-dimensional and two-dimensional arrays
+- Indexing
+- Slicing
+- Reshaping
+- Mathematical operations
+- Statistical operations
+- Mean
+- Median
+- Minimum
+- Maximum
+- Standard deviation
+- Sum
+
+### Pandas
+
+- Pandas Series
+- Pandas DataFrames
+- Reading CSV datasets
+- Data inspection
+- `head()`
+- `tail()`
+- `info()`
+- `describe()`
+- Data types
+- Selecting data
+- Filtering data
+- Sorting data
 - Missing-value handling
-- DataFrame merging and concatenation
+- DataFrame merging
+- Concatenation
 - GroupBy analysis
 - Pivot Tables
 - Exporting processed data
-- Basic data analysis and insight generation
 
-### Mini Data Analysis Project
+## 🧩 Mini Data Analysis Project
 
-The Week 2 assignment concludes with a **Mini Data Analysis Project** based on employee data.
+The Week 2 assignment included a **Mini Data Analysis Project** using a structured dataset.
 
-The project follows a basic analytical workflow:
+The project involved:
 
 ```text
 Dataset
@@ -136,9 +198,7 @@ Insights
 Processed Dataset
 ```
 
-The project helped me practice transforming raw data into structured information and extracting meaningful observations from the dataset.
-
-### Week 2 Files
+## 📁 Week 2 Files
 
 ```text
 week2-numpy&pandas/
@@ -158,97 +218,65 @@ week2-numpy&pandas/
 └── 04_report/
     └── NumPy_&_Pandas_for_Data_Analytics_Report.docx
 ```
+
 ---
 
 # 🗄️ Week 3 — SQL & Excel for Data Analytics
 
-### Goal
+## 🎯 Objective
 
-The objective of Week 3 was to develop practical skills in **SQL and Microsoft Excel** and understand how these tools can be used together for data analysis.
+The objective of Week 3 was to develop practical skills in **SQL and Microsoft Excel** for Data Analytics.
 
-The assignment focused on working with structured employee and department datasets, querying data using SQL, performing analysis in Excel, and documenting the analytical work in a final report.
+The assignment covered SQL querying and analysis along with essential Excel functions and tools for data analysis and reporting.
 
-### Dataset
-
-The Week 3 assignment uses two related CSV datasets:
-
-* `employees.csv` — employee-level information
-* `departments.csv` — department-level information
-
-These datasets provide a practical environment for performing data queries, analysis, and business-oriented data exploration.
-
-### SQL Analysis
-
-The SQL component of the assignment focuses on using SQL to retrieve, filter, organize, and analyze structured data.
+## 🗃️ SQL Analysis
 
 ### Key SQL Areas Covered
 
-* Database and table concepts
-* `SELECT` statements
-* Filtering records using `WHERE`
-* Sorting results using `ORDER BY`
-* Conditional filtering
-* Aggregate functions
-* `GROUP BY`
-* `HAVING`
-* SQL joins
-* Working with related employee and department data
-* Data aggregation and analysis
-* Extracting meaningful information from structured datasets
+- Database concepts
+- Tables
+- `SELECT`
+- Column aliases
+- `WHERE`
+- Comparison operators
+- `ORDER BY`
+- Aggregate functions
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
+- `GROUP BY`
+- `HAVING`
+- `INNER JOIN`
+- `LEFT JOIN`
+- `RIGHT JOIN`
+- Subqueries
 
-The SQL queries are documented in:
-
-```text
-SQL_&_Excel_for_Data_Analytics.sql
-```
-
-### Excel Analysis
-
-The Excel component of Week 3 focuses on using Microsoft Excel as a practical data-analysis tool.
-
-The assignment provides hands-on experience in organizing, analyzing, and presenting structured data using spreadsheet-based analytical techniques.
+## 📊 Excel Analysis
 
 ### Key Excel Areas Covered
 
-* Working with structured datasets
-* Data organization and preparation
-* Sorting and filtering
-* Spreadsheet-based analysis
-* Formulas and functions
-* Data summarization
-* Analytical calculations
-* Presenting analysis in a structured format
-* Extracting insights from employee and department data
+- Data formatting
+- Sorting
+- Filtering
+- Conditional formatting
+- `IF()`
+- `COUNTIF()`
+- `SUMIF()`
+- `VLOOKUP()`
+- `XLOOKUP()`
+- Pivot Tables
+- Charts
 
-The Excel assignment is available as:
+## 📁 Dataset
 
-```text
-Excel_Assignment.xlsx
-```
+The assignment used:
 
-### Analytical Workflow
+- `departments.csv`
+- `employees.csv`
 
-The overall Week 3 workflow can be represented as:
-
-```text
-Raw CSV Datasets
-       ↓
-Data Inspection
-       ↓
-SQL Querying
-       ↓
-Data Filtering & Aggregation
-       ↓
-Excel Analysis
-       ↓
-Analytical Results
-       ↓
-Insights
-       ↓
-Final Report
-```
-
-### Week 3 Files
+## 📁 Week 3 Files
 
 ```text
 week3_sql&excel/
@@ -267,45 +295,52 @@ week3_sql&excel/
     └── SQL_&_Excel_for_Data_Analytics_Report.pdf
 ```
 
+## 🔄 Analytical Workflow
+
+```text
+Raw Dataset
+     ↓
+Data Inspection
+     ↓
+SQL Querying
+     ↓
+Filtering & Aggregation
+     ↓
+Excel Analysis
+     ↓
+Pivot Tables & Charts
+     ↓
+Analytical Results
+     ↓
+Insights
+```
 
 ---
 
-# 📊 Week 4 — Statistics, Data Visualization & Exploratory Data Analysis
+# 📈 Week 4 — Statistics, Data Visualization & Exploratory Data Analysis
 
-### Goal
+## 🎯 Objective
 
 The objective of Week 4 was to develop practical skills in **Statistics, Data Visualization, and Exploratory Data Analysis (EDA)**.
 
-The assignment focused on applying statistical concepts, performing data cleaning and exploratory analysis, detecting patterns and outliers, creating meaningful visualizations, and generating data-driven insights and business recommendations.
+The assignment focused on statistical analysis, visualization using Matplotlib and Seaborn, data inspection and cleaning, correlation analysis, outlier detection, insights, and business recommendations.
 
-### Dataset
+## 📊 Statistical Analysis
 
-The Week 4 assignment uses a sales dataset:
-
-- `sales_data.csv` — dataset used for statistical analysis, visualization, and exploratory data analysis.
-
-### Statistical Analysis
-
-The assignment involved applying fundamental statistical concepts to understand the characteristics and distribution of the data.
-
-### Key Statistical Areas Covered
+The assignment covered:
 
 - Mean
 - Median
 - Mode
 - Variance
 - Standard Deviation
-- Correlation Analysis
-- Probability Basics
+- Correlation
+- Probability
 - Outlier Detection
 
-These statistical techniques helped in understanding the central tendency, variability, relationships, and unusual observations within the dataset.
+## 📉 Matplotlib Visualizations
 
-### Data Visualization
-
-The assignment included creating multiple visualizations using **Matplotlib** and **Seaborn** to explore patterns and relationships in the data.
-
-### Matplotlib Visualizations
+The following visualizations were created using Matplotlib:
 
 - Line Chart
 - Bar Chart
@@ -313,22 +348,18 @@ The assignment included creating multiple visualizations using **Matplotlib** an
 - Histogram
 - Scatter Plot
 
-### Seaborn Visualizations
+## 📊 Seaborn Visualizations
+
+The following visualizations were created using Seaborn:
 
 - Count Plot
 - Box Plot
 - Heatmap
 - Pair Plot
 
-These visualizations helped transform raw data into meaningful graphical insights and supported the exploratory analysis process.
+## 🧹 Exploratory Data Analysis
 
-### Exploratory Data Analysis (EDA)
-
-The EDA process involved inspecting, cleaning, and analyzing the dataset to identify important patterns and relationships.
-
-### Data Inspection & Cleaning
-
-The analysis included:
+The EDA process included:
 
 - Checking dataset dimensions
 - Inspecting column names
@@ -337,25 +368,24 @@ The analysis included:
 - Identifying missing values
 - Handling missing values
 - Checking duplicate records
-- Removing duplicates where necessary
-- Identifying inconsistent values
-- Comparing data before and after cleaning
+- Removing duplicates where required
+- Checking inconsistent values
+- Correlation analysis
+- Pattern and trend identification
+- Outlier identification
+- Insight generation
 
-### Correlation & Insights
+## 💡 Business Recommendations
 
-The dataset was further analyzed to:
+The analysis also included data-driven business recommendations based on the findings from the EDA.
 
-- Identify correlations between numerical variables
-- Explore important relationships
-- Detect patterns and trends
-- Identify potential outliers
-- Generate meaningful insights using visualizations
+## 📁 Dataset
 
-### Business Recommendations
+```text
+sales_data.csv
+```
 
-Based on the exploratory data analysis and findings, data-driven business recommendations were developed to demonstrate how analytical insights can support better decision-making.
-
-### Analytical Workflow
+## 🔄 Analytical Workflow
 
 ```text
 Raw Sales Dataset
@@ -379,10 +409,9 @@ Insights
 Business Recommendations
        ↓
 Final Report
-
 ```
 
-### Week 4 Files
+## 📁 Week 4 Files
 
 ```text
 week4_statistics_data_visualization&eda/
@@ -402,59 +431,91 @@ week4_statistics_data_visualization&eda/
     └── Statistics_Data_Visualization&Exploratory_Data_Analysis_Report.pdf
 ```
 
+---
+
 # 📊 Week 5 — Power BI & Business Intelligence
 
-### Goal
+## 🎯 Objective
 
-The objective of Week 5 was to develop practical skills in **Power BI and Business Intelligence** by transforming structured sales data into interactive and meaningful business visualizations.
+The objective of Week 5 was to develop practical skills in **Power BI and Business Intelligence**.
 
-The assignment focused on importing datasets, analyzing sales data, creating visualizations, and developing a Power BI dashboard to communicate business insights effectively.
+The assignment focused on importing and preparing datasets, data modeling, creating DAX calculations, developing visualizations, building an interactive dashboard, and generating business insights and recommendations.
 
-### Dataset
+## 📂 Datasets
 
-The Week 5 assignment uses two datasets:
+The Week 5 assignment uses:
 
-- `products.csv` — product-related information
-- `sales_fact.csv` — sales transaction data
+- `products.csv`
+- `sales_fact.csv`
 
-These datasets were used to build the Power BI analysis and dashboard.
+## 🧹 Data Preparation
 
-### Power BI Analysis
+The assignment included data preparation using **Power Query**, including:
 
-The assignment involved using **Microsoft Power BI** to analyze sales and product data and present the results through business-oriented visualizations.
+- Inspecting imported datasets
+- Identifying missing or incorrect values
+- Removing duplicate records
+- Correcting data types
+- Renaming columns
+- Removing unnecessary columns
+- Applying transformations
 
-### Key Areas Covered
+## 🔗 Data Modeling
 
-- Importing data into Power BI
-- Working with structured datasets
-- Data preparation
-- Data analysis
-- Creating charts and visualizations
-- Building business-focused dashboards
-- Presenting sales performance
-- Visual storytelling
-- Extracting business insights from data
+The Power BI project included:
 
-### Dashboard Visualizations
+- Identifying common columns
+- Creating relationships
+- Selecting appropriate relationship types
+- Building a basic data model
 
-The Power BI dashboard includes multiple visualizations, including:
+## 🧮 DAX Analysis
+
+The assignment included creating calculated columns and measures for:
+
+- Total Sales / Total Amount
+- Average Sales / Average Value
+- Total Number of Records
+- Maximum values
+- Minimum values
+- Percentage and other business calculations
+
+At least three DAX measures were created and analyzed.
+
+## 📊 Power BI Visualizations
+
+The dashboard includes:
 
 - Bar Chart
 - Line Chart
 - Donut Chart
 - Matrix
+- KPI / Card
 - Interactive Dashboard
 
-These visualizations help analyze sales performance and present important business information in an easy-to-understand format.
+## 🎛️ Interactive Dashboard
 
-### Dashboard
+The Power BI dashboard was designed to include:
 
-The main Power BI dashboard was developed using:
+- KPI Cards
+- Multiple visualizations
+- Filters / slicers
+- Meaningful titles
+- Organized dashboard layout
+- Business metrics
 
-```text
-InterNova_Sales_Dashboard.pbix
-```
-### Week 4 Files
+## 💡 Business Insights
+
+The assignment included analysis of:
+
+- Important trends
+- Patterns
+- High-performing areas
+- Low-performing areas
+- Business insights
+- Data-driven recommendations
+
+## 📁 Week 5 Files
 
 ```text
 week5_power_bi&business_intelligence/
@@ -476,87 +537,395 @@ week5_power_bi&business_intelligence/
 └── 04_report/
     └── Power BI & Business Intelligence_Report.pdf
 ```
----
-
-# 🛠️ Technologies Used
-
-### Programming
-
-* Python
-
-### Data Analysis Libraries
-
-* NumPy
-* Pandas
-
-### Data Analysis Tools
-
-* SQL
-* Microsoft Excel
-
-### Development Environment
-
-* Jupyter Notebook
-* Python
-
-### Data Sources
-
-* CSV datasets
-
-### Documentation & Reporting
-
-* Microsoft Word
-* PDF
-
-### Version Control
-
-* Git
-* GitHub
 
 ---
 
-# 🎯 Learning Outcomes
+# 🚀 Week 6 — Git, GitHub & Final Data Analytics Project
 
-Through the first three weeks of the internship, I have developed practical experience in:
+## 🎯 Objective
 
-* Writing Python programs
-* Working with NumPy arrays
-* Performing numerical and statistical operations
-* Working with Pandas DataFrames
-* Reading and inspecting datasets
-* Cleaning and preparing data
-* Filtering and transforming data
-* Combining datasets
-* Performing grouped analysis
-* Creating Pivot Tables
-* Writing SQL queries
-* Filtering and sorting data using SQL
-* Performing SQL aggregation
-* Working with related datasets using joins
-* Analyzing structured data in Excel
-* Using spreadsheet-based analytical techniques
-* Extracting basic analytical insights
-* Documenting analytical work through reports
+Week 6 was the **final assignment of the InternNova Data Analytics Internship**.
 
-These assignments have helped me develop a stronger foundation in the core tools used in **Data Analytics** and prepare for more advanced analytical and visualization projects.
+The objective was to apply the Data Analytics skills developed throughout the internship by building an **end-to-end Final Data Analytics Project**.
+
+The assignment also introduced Git and GitHub workflow and required the creation of a professional project repository suitable for a portfolio.
+
+## 🔧 Git & GitHub
+
+The assignment covered:
+
+- Git installation and setup
+- GitHub repository creation
+- Repository cloning
+- Adding project files
+- Git commits
+- Git push
+- Git pull
+- Basic Git workflow
+- Meaningful project commits
+- GitHub repository management
+
+## 📊 Final Capstone Project
+
+The final project involved an end-to-end data analytics workflow covering:
+
+- Dataset selection
+- Data preparation
+- Data inspection
+- Data cleaning
+- Missing-value handling
+- Duplicate removal
+- Exploratory Data Analysis
+- Descriptive statistics
+- Correlation analysis
+- Pattern and trend identification
+- Outlier detection
+- Data visualization
+- Power BI dashboard development
+- Business insights
+- Business recommendations
+- Professional GitHub documentation
+
+## 🛒 Final Project — Retail Sales Analysis
+
+The final capstone project was developed as a dedicated GitHub repository:
+
+**Retail Sales Analysis**
+
+🔗 **GitHub Repository:**  
+https://github.com/brojomohan58-boop/Retail-Sales-Analysis
+
+The dedicated repository contains the complete end-to-end project and serves as the primary portfolio repository for the Week 6 capstone.
+
+## 📊 Final Project Requirements Covered
+
+### Dataset & Data Preparation
+
+- Dataset selection
+- Data inspection
+- Column and data-type identification
+- Missing-value analysis
+- Data cleaning
+- Duplicate handling
+- Dataset preparation
+
+### Exploratory Data Analysis
+
+- Descriptive statistics
+- Data inspection
+- Data cleaning
+- Missing-value handling
+- Correlation analysis
+- Pattern identification
+- Trend analysis
+- Outlier identification
+
+### Data Visualization
+
+The project includes meaningful visualizations designed to communicate:
+
+- Trends
+- Comparisons
+- Relationships
+- Important business information
+
+### Power BI Dashboard
+
+The final project includes an interactive Power BI dashboard with:
+
+- KPI Cards
+- Multiple visualizations
+- Filters / slicers
+- Business metrics
+- Dashboard title
+- Organized layout
+
+### Business Insights & Recommendations
+
+The final analysis includes:
+
+- Meaningful business insights
+- Important trends and patterns
+- High/low performing areas where applicable
+- Data-driven business recommendations
+
+### Documentation & Presentation
+
+The final project includes professional project documentation covering:
+
+- Project Title
+- Project Overview
+- Problem Statement
+- Dataset Description
+- Tools Used
+- Data Cleaning Process
+- EDA
+- Visualizations
+- Power BI Dashboard
+- Key Insights
+- Business Recommendations
+- Conclusion
+
+A project presentation was also prepared as part of the final assignment.
+
+## 📁 Week 6 Internship Folder
+
+The complete capstone project is maintained separately in the dedicated GitHub repository.
+
+The InternNova repository contains the internship submission materials and references:
+
+```text
+week6_git_github&final_data_analytics_project/
+│
+├── 01_project_repository/
+│   └── Retail-Sales-Analysis_Project_Link.txt
+│
+├── 02_report/
+│   ├── Git, GitHub & Final Data Analytics Project Report.docx
+│   └── Git, GitHub & Final Data Analytics Project Report.pdf
+│
+└── 03_presentation/
+    ├── Retail_Sales_Performance_Analysis.pptx
+    ├── Retail_Sales_Performance_Analysis_Report.docx
+    ├── Retail_Sales_Performance_Analysis_Report.pdf
+    └── Retail_Sales_Performance_Analysis_presentation.pdf
+```
+
+## 🔄 End-to-End Capstone Workflow
+
+```text
+Git & GitHub Setup
+        ↓
+Dataset Selection
+        ↓
+Data Preparation
+        ↓
+Data Cleaning
+        ↓
+Exploratory Data Analysis
+        ↓
+Statistical Analysis
+        ↓
+Data Visualization
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights
+        ↓
+Business Recommendations
+        ↓
+Documentation
+        ↓
+Final Presentation
+```
 
 ---
 
-# 📁 Repository Organization
+# 🛠️ Technologies & Tools Used
 
-The repository is organized by week and by the type of work submitted.
+## Programming
+
+- Python
+
+## Python Libraries
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Data Analysis
+
+- SQL
+- Microsoft Excel
+- Statistics
+- Exploratory Data Analysis
+
+## Business Intelligence
+
+- Microsoft Power BI
+- Power Query
+- DAX
+
+## Development Environment
+
+- Jupyter Notebook
+- Python
+- Power BI Desktop
+
+## Version Control
+
+- Git
+- GitHub
+
+## Data Formats
+
+- CSV
+- XLSX
+- SQL
+- PBIX
+- PDF
+- DOCX
+- PPTX
+
+---
+
+# 🎯 Skills Developed Throughout the Internship
+
+Through the six-week internship, I developed practical experience in:
+
+### Python
+
+- Python programming
+- Variables and data types
+- Operators
+- Conditional statements
+- Loops
+- Functions
+- Strings
+- Collections
+- File handling
+
+### NumPy & Pandas
+
+- Array manipulation
+- Mathematical and statistical operations
+- DataFrame operations
+- Data inspection
+- Data cleaning
+- Filtering and sorting
+- Merging and concatenation
+- GroupBy
+- Pivot Tables
+- Data export
+
+### SQL
+
+- SELECT
+- WHERE
+- ORDER BY
+- Aggregate functions
+- GROUP BY
+- HAVING
+- JOINs
+- Subqueries
+
+### Excel
+
+- Data formatting
+- Sorting and filtering
+- Conditional formatting
+- IF
+- COUNTIF
+- SUMIF
+- VLOOKUP
+- XLOOKUP
+- Pivot Tables
+- Charts
+
+### Statistics & EDA
+
+- Mean
+- Median
+- Mode
+- Variance
+- Standard deviation
+- Correlation
+- Probability
+- Outlier detection
+- Data inspection
+- Data cleaning
+- Pattern identification
+- Trend analysis
+
+### Data Visualization
+
+- Matplotlib
+- Seaborn
+- Line charts
+- Bar charts
+- Pie charts
+- Histograms
+- Scatter plots
+- Count plots
+- Box plots
+- Heatmaps
+- Pair plots
+
+### Power BI & Business Intelligence
+
+- Power BI data import
+- Power Query
+- Data preparation
+- Data modeling
+- Relationships
+- DAX
+- Calculated measures
+- KPI Cards
+- Slicers
+- Interactive dashboards
+- Business insights
+- Business recommendations
+
+### Git & GitHub
+
+- Git repository management
+- Git clone
+- Git add
+- Git commit
+- Git push
+- Git pull
+- GitHub repository management
+- Project documentation
+- Portfolio repository development
+
+---
+
+# 📁 Complete Repository Structure
 
 ```text
 InternNova-Data-Analytics/
 │
 ├── week1-python-fundamentals/
+│   ├── 01_notebook/
+│   │   ├── Python_Fundamentals_for_Data_Analytics.ipynb
+│   │   └── Python_Fundamentals_for_Data_Analytics.py
+│   │
+│   └── 02_report/
+│       └── Python_Fundamentals_for_Data_Analytics_Report.docx
 │
 ├── week2-numpy&pandas/
+│   ├── 01_dataset/
+│   │   ├── departments.csv
+│   │   └── employees.csv
+│   │
+│   ├── 02_notebook/
+│   │   ├── NumPy_&_Pandas_for_Data_Analytics.ipynb
+│   │   └── NumPy_&_Pandas_for_Data_Analytics.py
+│   │
+│   ├── 03_output/
+│   │   ├── employee_analysis_final.csv
+│   │   └── employees_processed.csv
+│   │
+│   └── 04_report/
+│       └── NumPy_&_Pandas_for_Data_Analytics_Report.docx
 │
 ├── week3_sql&excel/
+│   ├── 01_datasets/
+│   │   ├── departments.csv
+│   │   └── employees.csv
+│   │
+│   ├── 02_sql/
+│   │   └── SQL_&_Excel_for_Data_Analytics.sql
+│   │
+│   ├── 03_excel_file/
+│   │   └── Excel_Assignment.xlsx
+│   │
+│   └── 04_report/
+│       └── SQL_&_Excel_for_Data_Analytics_Report.pdf
 │
 ├── week4_statistics_data_visualization&eda/
-│   ├── 01_datasets/
+│   ├── 01_dataset/
 │   │   └── sales_data.csv
 │   │
 │   ├── 02_notebook/
@@ -570,22 +939,83 @@ InternNova-Data-Analytics/
 │   └── 04_report/
 │       └── Statistics_Data_Visualization&Exploratory_Data_Analysis_Report.pdf
 │
-└── .gitignore
+├── week5_power_bi&business_intelligence/
+│   ├── 01_dataset/
+│   │   ├── products.csv
+│   │   └── sales_fact.csv
+│   │
+│   ├── 02_power_bi/
+│   │   └── InterNova_Sales_Dashboard.pbix
+│   │
+│   ├── 03_dashboard/
+│   │   ├── 01_bar_chart.png
+│   │   ├── 02_line_chart.png
+│   │   ├── 03_donut_chart.png
+│   │   ├── 04_matrix.png
+│   │   └── 05_dashboard.png
+│   │
+│   └── 04_report/
+│       └── Power BI & Business Intelligence_Report.pdf
+│
+├── week6_git_github&final_data_analytics_project/
+│   ├── 01_project_repository/
+│   │   └── Retail-Sales-Analysis_Project_Link.txt
+│   │
+│   ├── 02_report/
+│   │   ├── Git, GitHub & Final Data Analytics Project Report.docx
+│   │   └── Git, GitHub & Final Data Analytics Project Report.pdf
+│   │
+│   └── 03_presentation/
+│       ├── Retail_Sales_Performance_Analysis.pptx
+│       ├── Retail_Sales_Performance_Analysis_Report.docx
+│       ├── Retail_Sales_Performance_Analysis_Report.pdf
+│       └── Retail_Sales_Performance_Analysis_presentation.pdf
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
-
-This structure keeps the **datasets, source code, SQL queries, Excel work, outputs, and reports** organized and easy to review.
 
 ---
 
-# 🚀 Next Steps
+# 📌 Internship Completion Summary
 
-I will continue updating this repository as I progress through the internship, adding future assignments, projects, analysis work, and documentation.
+The six-week InternNova Data Analytics Internship provided practical exposure to the complete data analytics workflow.
 
-My goal is to continuously strengthen my practical skills across the following areas:
+```text
+Programming
+     ↓
+Data Manipulation
+     ↓
+SQL & Spreadsheet Analysis
+     ↓
+Statistics & EDA
+     ↓
+Data Visualization
+     ↓
+Business Intelligence
+     ↓
+Dashboard Development
+     ↓
+Git & GitHub
+     ↓
+End-to-End Data Analytics Project
+```
 
-**Python → Data Analysis → SQL → Excel → Visualization → Business Insights**
+The internship helped strengthen my technical foundation and practical understanding of how raw data can be transformed into meaningful insights and business recommendations.
 
-Future tasks will build upon these foundations and provide additional opportunities to apply data analytics concepts to practical problems.
+---
+
+# 🚀 Final Portfolio Project
+
+### Retail Sales Analysis
+
+The final capstone project developed during Week 6 is maintained as a separate portfolio repository:
+
+🔗 **GitHub:**  
+https://github.com/brojomohan58-boop/Retail-Sales-Analysis
+
+This dedicated repository contains the complete final project and demonstrates the application of the skills developed throughout the InternNova internship.
 
 ---
 
@@ -593,7 +1023,9 @@ Future tasks will build upon these foundations and provide additional opportunit
 
 This repository contains work completed as part of my **Data Analytics Internship at InternNova**.
 
-The internship assignments provide practical exposure to data analytics concepts and help develop hands-on problem-solving, technical, and analytical skills.
+The internship assignments provided practical exposure to programming, data analysis, statistics, visualization, business intelligence, version control, and end-to-end project development.
+
+I am grateful for the opportunity to apply these concepts through practical assignments and projects.
 
 ---
 
@@ -601,10 +1033,14 @@ The internship assignments provide practical exposure to data analytics concepts
 
 **Brojo Mohan Dutta**
 
-**Aspiring Data Analyst**
+🎓 **B.Sc. Honours in Mathematics**
 
-Python • NumPy • Pandas • SQL • Excel • Power BI • Tableau
+📊 **Aspiring Data Analyst**
+
+**Skills:**
+
+Python • NumPy • Pandas • SQL • Excel • Statistics • Matplotlib • Seaborn • Power BI • DAX • Power Query • Git • GitHub • Data Visualization • EDA
 
 ---
 
-⭐ **This repository is maintained as a record of my learning, practical work, and progress throughout the InternNova Data Analytics Internship.**
+⭐ **This repository serves as a record of my learning, practical work, projects, and successful completion of the InternNova Data Analytics Internship.**
