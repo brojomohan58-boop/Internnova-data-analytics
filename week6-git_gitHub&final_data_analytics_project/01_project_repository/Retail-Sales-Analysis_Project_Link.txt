@@ -1,0 +1,18 @@
+InternNova Week 6 Final Data Analytics Project
+
+Project Title:
+Retail Sales Analysis
+
+GitHub Repository:
+https://github.com/brojomohan58-boop/Retail-Sales-Analysis
+
+This repository contains the complete end-to-end Final Data Analytics Project completed as part of the InternNova Data Analytics Internship.
+
+The project includes:
+- Dataset preparation
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Power BI dashboard
+- Business insights
+- Business recommendations
+- Project documentation
